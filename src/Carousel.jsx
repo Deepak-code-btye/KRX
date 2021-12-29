@@ -1,7 +1,6 @@
 import React from "react";
-import c1 from "./image/d1.jpg";
 import c2 from "./image/james.jpg";
-import c3 from "./image/d1.jpg";
+
 const Carousel = () => {
   return (
     <header>
