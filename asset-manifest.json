@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/KRX/static/css/main.21eedb05.css",
+    "main.js": "/KRX/static/js/main.5e8557c2.js",
+    "static/media/d1.jpg": "/KRX/static/media/d1.9938f701f5e11f4f0bb4.jpg",
+    "static/media/s2.jpg": "/KRX/static/media/s2.a6549d560af7eee3772a.jpg",
+    "static/media/d3.jpg": "/KRX/static/media/d3.1a6a62f52efce52f23dc.jpg",
+    "static/media/s4.jpg": "/KRX/static/media/s4.0a207d27ab751caa23ba.jpg",
+    "static/media/joshua.jpg": "/KRX/static/media/joshua.280116ba61c7db4ec2fb.jpg",
+    "static/media/james.jpg": "/KRX/static/media/james.d9e1e64f3dd686106384.jpg",
+    "static/media/d4.jpg": "/KRX/static/media/d4.2272c4a64c8cca431c83.jpg",
+    "static/media/s3.jpg": "/KRX/static/media/s3.6fa56cb72943603f6cea.jpg",
+    "static/media/s1.jpg": "/KRX/static/media/s1.78be9b4a8791400e53cd.jpg",
+    "static/media/d2.jpg": "/KRX/static/media/d2.2df375a959338d0813e8.jpg",
+    "static/media/ll4.png": "/KRX/static/media/ll4.bdbe3beee26f3f820494.png",
+    "index.html": "/KRX/index.html",
+    "main.21eedb05.css.map": "/KRX/static/css/main.21eedb05.css.map",
+    "main.5e8557c2.js.map": "/KRX/static/js/main.5e8557c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21eedb05.css",
+    "static/js/main.5e8557c2.js"
+  ]
+}
