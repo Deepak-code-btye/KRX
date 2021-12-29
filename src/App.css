@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--navbarcolor);
+  /* min-height: 100vh; */
+  width: 100%;
+}
+/* logo */
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  /* margin-top: 5px; */
+}
+.white_color {
+  color: blanchedalmond;
+}
+
+/* ------------- */
+/* ------------------Contact-------------------- */
+.contactus-section {
+  margin: 15rem 0;
+}
+.contactus-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+  border-radius: 5px;
+}
+/* -------form---------------------------------- */
+.contact-input-feild {
+  margin-bottom: 5rem;
+}
+.form-control {
+  height: 5rem;
+}
+.contact-rightside .form-control {
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 4rem;
+  border-radius: 00.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+.form-check-input {
+  margin: 1rem 0;
+}
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+.contact-rightside form .main-hero-para {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 1rem;
+}
+/* -------------------end----------------------- */
+:root {
+  --navbarcolor: rgb(232, 247, 247);
+  --bgcolor: #23a8fa;
+  --primary-color: #8c92f0;
+  --text-color: #b3008c;
+  --main-text-color: #353232;
+}
+/* header */
+
+html {
+  font-size: 82.5%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: #333333;
+}
+/* ---------------------------navbar css media quries---------------- */
+
+.navbar-bg {
+  background-color: var(--bgcolor);
+  /* background-color: black; */
+  padding: 1rem;
+  z-index: 99;
+  position: relative;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.navbar li {
+  /* space  vertical = 0   and horizontal = 2rem */
+  padding: 0 2rem;
+}
+.navbar li {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  position: relative;
+}
+.navbar li:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgb(rgb(55, 0, 255), rgb(54, 42, 219), blue);
+}
+.btn-style {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  color: rgb(194, 26, 26);
+  background-color: rgb(70, 172, 23);
+  text-transform: capitalize;
+}
+.btn-style:first-child {
+  /* bottom ka space */
+  margin-right: 5rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid rgb(100, 19, 192);
+  background-color: transparent;
+  background-color: purple;
+  color: var(--primary-color);
+}
+.btn-style-border {
+  border: 0.5rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+}
+.btn-style-border:hover {
+  color: #fff;
+  background-color: rgb(132, 15, 199);
+  text-transform: capitalize;
+}
+
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+/* ----------header-image------------------------------- */
+@media (max-width: 998px) {
+  .navbar .navbar-collapse {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 2rem 1rem;
+  }
+  .input-group .btn-style {
+    font-size: 1.2rem;
+  }
+  header {
+    background-color: var(--navbarcolor);
+    /* min-height: 145vh; */
+    width: 100%;
+  }
+  .main-hero-container h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .main-hero-container h3 {
+    font-weight: lighter;
+    margin-top: -17px;
+  }
+  .main-hero-para {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .main-hero-para {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 1rem 0 2rem 0;
+    font-weight: lighter;
+    margin-left: 2rem;
+    width: 75%;
+  }
+  .input-group-text {
+    right: 26%;
+    top: 0.4rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    height: 3.2rem;
+    width: 19vw;
+  }
+}
