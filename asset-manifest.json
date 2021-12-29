@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KRX/static/css/main.21eedb05.css",
-    "main.js": "/KRX/static/js/main.5e8557c2.js",
+    "main.css": "/KRX/static/css/main.6aac80a4.css",
+    "main.js": "/KRX/static/js/main.d17ba582.js",
     "static/media/d1.jpg": "/KRX/static/media/d1.9938f701f5e11f4f0bb4.jpg",
     "static/media/s2.jpg": "/KRX/static/media/s2.a6549d560af7eee3772a.jpg",
     "static/media/d3.jpg": "/KRX/static/media/d3.1a6a62f52efce52f23dc.jpg",
@@ -14,11 +14,11 @@
     "static/media/d2.jpg": "/KRX/static/media/d2.2df375a959338d0813e8.jpg",
     "static/media/ll4.png": "/KRX/static/media/ll4.bdbe3beee26f3f820494.png",
     "index.html": "/KRX/index.html",
-    "main.21eedb05.css.map": "/KRX/static/css/main.21eedb05.css.map",
-    "main.5e8557c2.js.map": "/KRX/static/js/main.5e8557c2.js.map"
+    "main.6aac80a4.css.map": "/KRX/static/css/main.6aac80a4.css.map",
+    "main.d17ba582.js.map": "/KRX/static/js/main.d17ba582.js.map"
   },
   "entrypoints": [
-    "static/css/main.21eedb05.css",
-    "static/js/main.5e8557c2.js"
+    "static/css/main.6aac80a4.css",
+    "static/js/main.d17ba582.js"
   ]
 }
