@@ -9,14 +9,12 @@ import Developer from "./Developer";
 import Footer from "./Footer";
 import { Routes, Route } from "react-router-dom";
 import Products from "./Products";
-import Home from "./Home";
 import Carousel from "./Carousel";
 import Contacts from "./Contacts";
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Home /> */}
       <Carousel />
       <Routes>
         <Route exact path="/product" element={<Products />} />

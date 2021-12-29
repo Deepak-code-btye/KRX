@@ -1,9 +1,22 @@
-import p1 from "./image/joshua.jpg";
+import s1 from "../image/s1.jpg";
+import s2 from "../image/s2.jpg";
+import s3 from "../image/s3.jpg";
 
-const Sdata3 = [
+const sdata3 = [
   {
-    imgsrc: p1,
-    title: "port",
+    imgsrc: s1,
+    title: "service",
+    vist: "",
+  },
+  {
+    imgsrc: s2,
+    title: "service",
+    vist: "",
+  },
+  {
+    imgsrc: s3,
+    title: "service",
+    vist: "",
   },
 ];
-export default Sdata3;
+export default sdata3;
