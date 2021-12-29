@@ -13,14 +13,7 @@ const Footer = () => {
                 Lets Discuss
                 <p className="text-white">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  <div
-                    style={{
-                      position: "relative",
-                      left: "50rem",
-                      bottom: "60px",
-                      backgroundColor: "#00ff80",
-                    }}
-                  >
+                  <div className="imgs">
                     <span className="">
                       <input type="text" />
                       <span>Search</span>
